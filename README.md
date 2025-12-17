@@ -21,7 +21,7 @@ This project walks through the configuration of osTicket after installation, inc
 ## 🖥️ Environments & Technologies Used
 
 - Microsoft Azure (Virtual Machines)
-- Windows 10 (21H2)
+- Windows 11
 - Internet Information Services (IIS)
 - osTicket
 - Remote Desktop Protocol (RDP)
