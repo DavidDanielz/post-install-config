@@ -51,13 +51,13 @@ Logged into the osTicket admin control panel to begin system configuration.
 ### Role Configuration
 
 **Expanded Access – Ticket Permissions**  
-<img src="images/expanded-access-tickets.png">
+<img src="2. Expanded Access – Ticket Permissions.png">
 
 **Expanded Access – Task Permissions**  
-<img src="images/expanded-access-tasks.png">
+<img src="3. Expanded Access – Task Permissions.png">
 
 **Expanded Access – Knowledgebase Permissions**  
-<img src="images/expanded-access-kb.png">
+<img src="4. Expanded Access – Knowledgebase Permissions.png">
 
 Created and configured agent roles to control permissions and access levels.
 
