@@ -1,55 +1,99 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket – Post-Installation Configuration</h1>
 
+This project documents the post-installation configuration of **osTicket**, an open-source help desk ticketing system. It focuses on setting up core administrative features required for day-to-day help desk operations and demonstrates practical, job-ready IT support skills.
 
-<h2>Video Demonstration</h2>
+---
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+## 📌 Project Summary
 
-<h2>Environments and Technologies Used</h2>
+**Project Type:** Infrastructure Deployment & Application Configuration  
+**Status:** Complete  
+**Use Case:** Configuring a cloud-hosted help desk system to manage IT support requests
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+This project walks through the configuration of osTicket after installation, including agent setup, role-based access, department organization, SLA policies, and ticket handling. The goal is to reflect real-world help desk workflows commonly used in IT support environments.
+
+---
+
+## 🖥️ Environments & Technologies Used
+
+- Microsoft Azure (Virtual Machines)
+- Windows 10 (21H2)
 - Internet Information Services (IIS)
+- osTicket
+- Remote Desktop Protocol (RDP)
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+## 🎯 Post-Installation Configuration Objectives
 
-<h2>Post-Install Configuration Objectives</h2>
+- Configure agent roles and permissions
+- Create departments for ticket routing
+- Add agents and assign responsibilities
+- Configure SLA plans
+- Test ticket creation and resolution workflow
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+---
 
-<h2>Configuration Steps</h2>
+## ⚙️ Configuration Steps & Demonstration
+
+### Admin Panel Access
+<p>
+  <img src="images/admin-login.png" width="80%" alt="Admin Panel Login"/>
+</p>
+Logged into the osTicket admin control panel to begin system configuration.
+
+---
+
+### Role Configuration
+<p>
+  <img src="images/roles.png" width="80%" alt="Role Configuration"/>
+</p>
+Created and configured agent roles to control permissions and access levels.
+
+---
+
+### Department Setup
+<p>
+  <img src="images/departments.png" width="80%" alt="Department Configuration"/>
+</p>
+Configured departments to properly route incoming tickets.
+
+---
+
+### Agent Configuration
+<p>
+  <img src="images/users.png" width="80%" alt="Agent Configuration"/>
+</p>
+Added agents and assigned them roles and departments.
+
+---
+
+### SLA Configuration
+<p>
+  <img src="images/sla.png" width="80%" alt="SLA Configuration"/>
+</p>
+Configured SLA plans to define response and resolution timeframes.
+
+---
+
+### Ticket Lifecycle Demonstration
+<p>
+  <img src="images/ticket-created.png" width="80%" alt="Ticket Creation"/>
+</p>
+Submitted a test ticket from the end-user portal.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="images/ticket-response.png" width="80%" alt="Ticket Response"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Responded to and resolved the ticket as a support agent.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## ✅ Outcome
+
+The osTicket system is fully configured and operational, supporting user ticket submission, agent response workflows, and SLA enforcement. This project demonstrates practical experience with help desk systems, user management, and IT service operations in a cloud-based environment.
+
