@@ -42,7 +42,7 @@ This project walks through the configuration of osTicket after installation, inc
 
 ### Admin Panel Access
 <p>
-  <img src="images/admin-login.png" width="80%" alt="Admin Panel Login"/>
+  <img src="1. osTicket Admin Panel dashboard.png" width="80%" alt="Admin Panel Login"/>
 </p>
 Logged into the osTicket admin control panel to begin system configuration.
 
