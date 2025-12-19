@@ -94,7 +94,7 @@ Configured SLA plans to define response and resolution timeframes.
 Submitted a test ticket from the end-user portal.
 
 <p>
-  <img src="images/ticket-response.png" width="80%" alt="Ticket Response"/>
+  <img src="25. Ticket resolved .png" width="80%" alt="Ticket Response"/>
 </p>
 Responded to and resolved the ticket as a support agent.
 
