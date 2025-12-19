@@ -65,7 +65,7 @@ Created and configured agent roles to control permissions and access levels.
 
 ### Department Setup
 <p>
-  <img src="images/departments.png" width="80%" alt="Department Configuration"/>
+  <img src="5. Department Names.png" width="80%" alt="Department Configuration"/>
 </p>
 Configured departments to properly route incoming tickets.
 
@@ -73,7 +73,7 @@ Configured departments to properly route incoming tickets.
 
 ### Agent Configuration
 <p>
-  <img src="images/users.png" width="80%" alt="Agent Configuration"/>
+  <img src="7. Agents.png" width="80%" alt="Agent Configuration"/>
 </p>
 Added agents and assigned them roles and departments.
 
@@ -81,7 +81,7 @@ Added agents and assigned them roles and departments.
 
 ### SLA Configuration
 <p>
-  <img src="images/sla.png" width="80%" alt="SLA Configuration"/>
+  <img src="9. SLA.png" width="80%" alt="SLA Configuration"/>
 </p>
 Configured SLA plans to define response and resolution timeframes.
 
