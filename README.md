@@ -89,7 +89,7 @@ Configured SLA plans to define response and resolution timeframes.
 
 ### Ticket Lifecycle Demonstration
 <p>
-  <img src="images/ticket-created.png" width="80%" alt="Ticket Creation"/>
+  <img src="22. Ticket request created.png" width="80%" alt="Ticket Creation"/>
 </p>
 Submitted a test ticket from the end-user portal.
 
