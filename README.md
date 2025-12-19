@@ -2,110 +2,161 @@
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket – Post-Installation Configuration</h1>
+<h1 align="center">osTicket Help Desk Configuration</h1>
+<h2 align="center">Post-Installation Setup & Ticket Workflow</h2>
 
-This project documents the post-installation configuration of **osTicket**, an open-source help desk ticketing system. It focuses on setting up core administrative features required for day-to-day help desk operations and demonstrates practical, job-ready IT support skills.
+<h3 align="center">
+Microsoft Azure Windows VM | IIS | osTicket
+</h3>
+
+<div align="center">
+  
+  ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+  ![IIS](https://img.shields.io/badge/IIS-5E5E5E?style=for-the-badge)
+  ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+  ![osTicket](https://img.shields.io/badge/osTicket-2C3E50?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📌 Project Summary
+## 📋 Project Overview
 
-**Project Type:** Infrastructure Deployment & Application Configuration  
+**Project Type:** Infrastructure Configuration & Application Administration  
 **Status:** Complete  
-**Use Case:** Configuring a cloud-hosted help desk system to manage IT support requests
+**Business Use Case:** Configure a cloud-hosted help desk system for daily IT support operations  
 
-This project walks through the configuration of osTicket after installation, including agent setup, role-based access, department organization, SLA policies, and ticket handling. The goal is to reflect real-world help desk workflows commonly used in IT support environments.
+This project documents the **post-installation configuration of osTicket** in a Microsoft Azure environment. The focus is on configuring administrative components required for a functional help desk, including agent roles, departments, SLAs, and ticket workflows.
+
+The project reflects **real-world help desk tasks** commonly performed by Tier 1 and Tier 2 IT support technicians.
 
 ---
 
-## 🖥️ Environments & Technologies Used
+## 🖥️ Environment & Platform
 
-- Microsoft Azure (Virtual Machines)
-- Windows 11
+- Microsoft Azure (Windows Virtual Machine)
+- Windows 11 Pro
 - Internet Information Services (IIS)
 - osTicket
 - Remote Desktop Protocol (RDP)
 
 ---
 
-## 🎯 Post-Installation Configuration Objectives
+## 🎯 Configuration Objectives
 
 - Configure agent roles and permissions
 - Create departments for ticket routing
-- Add agents and assign responsibilities
+- Add agents and assign roles
 - Configure SLA plans
-- Test ticket creation and resolution workflow
+- Demonstrate full ticket lifecycle from submission to resolution
 
 ---
 
 ## ⚙️ Configuration Steps & Demonstration
 
 ### Admin Panel Access
-<p>
-  <img src="1. osTicket Admin Panel dashboard.png" width="80%" alt="Admin Panel Login"/>
+<p align="center">
+  <img src="1. osTicket Admin Panel dashboard.png" width="80%" alt="Admin Panel Dashboard"/>
 </p>
+<p align="center">
 Logged into the osTicket admin control panel to begin system configuration.
+</p>
 
 ---
 
 ### Role Configuration
+<p align="center">
+  <img src="2. Expanded Access – Ticket Permissions.png" width="80%" alt="Ticket Permissions"/>
+</p>
 
-**Expanded Access – Ticket Permissions**  
-<img src="2. Expanded Access – Ticket Permissions.png">
+<p align="center">
+  <img src="3. Expanded Access – Task Permissions.png" width="80%" alt="Task Permissions"/>
+</p>
 
-**Expanded Access – Task Permissions**  
-<img src="3. Expanded Access – Task Permissions.png">
+<p align="center">
+  <img src="4. Expanded Access – Knowledgebase Permissions.png" width="80%" alt="Knowledgebase Permissions"/>
+</p>
 
-**Expanded Access – Knowledgebase Permissions**  
-<img src="4. Expanded Access – Knowledgebase Permissions.png">
-
-Created and configured agent roles to control permissions and access levels.
+<p align="center">
+Created and configured agent roles to control access and permissions.
+</p>
 
 ---
 
 ### Department Setup
-<p>
-  <img src="5. Department Names.png" width="80%" alt="Department Configuration"/>
+<p align="center">
+  <img src="5. Department Names.png" width="80%" alt="Department Setup"/>
 </p>
-Configured departments to properly route incoming tickets.
+<p align="center">
+Configured departments to properly route incoming support tickets.
+</p>
 
 ---
 
 ### Agent Configuration
-<p>
+<p align="center">
   <img src="7. Agents.png" width="80%" alt="Agent Configuration"/>
 </p>
-Added agents and assigned them roles and departments.
+<p align="center">
+Added agents and assigned them appropriate roles and departments.
+</p>
 
 ---
 
 ### SLA Configuration
-<p>
+<p align="center">
   <img src="9. SLA.png" width="80%" alt="SLA Configuration"/>
 </p>
-Configured SLA plans to define response and resolution timeframes.
+<p align="center">
+Configured SLA plans to define response and resolution expectations.
+</p>
 
 ---
 
-### Ticket Lifecycle Demonstration
-<p>
-  <img src="22. Ticket request created.png" width="80%" alt="Ticket Creation"/>
-</p>
-Submitted a test ticket from the end-user portal.
+## 🔄 Ticket Lifecycle Demonstration
 
-<p>
-  <img src="23.5 Open ticket .png" width="80%" alt="Ticket Creation"/>
+### Ticket Creation (End-User View)
+<p align="center">
+  <img src="22. Ticket request created.png" width="80%" alt="Ticket Created"/>
 </p>
-Ticket number and details 
+<p align="center">
+Submitted a test ticket from the end-user support portal.
+</p>
 
-<p>
-  <img src="25. Ticket resolved .png" width="80%" alt="Ticket Response"/>
+---
+
+### Ticket Intake (Agent View)
+<p align="center">
+  <img src="23.5 Open ticket .png" width="80%" alt="Open Ticket"/>
 </p>
-Responded to and resolved the ticket as a support agent.
+<p align="center">
+Verified ticket receipt, ticket details, and assigned ownership as a support agent.
+</p>
+
+---
+
+### Ticket Resolution
+<p align="center">
+  <img src="25. Ticket resolved .png" width="80%" alt="Ticket Resolved"/>
+</p>
+<p align="center">
+Responded to and resolved the ticket, completing the support workflow.
+</p>
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Help desk system configuration (osTicket)
+- Role-based access control (RBAC)
+- Department-based ticket routing
+- SLA configuration and enforcement
+- Ticket lifecycle management
+- Cloud-hosted IT support operations
+- Professional documentation and workflow demonstration
 
 ---
 
 ## ✅ Outcome
 
-The osTicket system is fully configured and operational, supporting user ticket submission, agent response workflows, and SLA enforcement. This project demonstrates practical experience with help desk systems, user management, and IT service operations in a cloud-based environment.
-
+The osTicket help desk system is fully configured and operational, supporting structured ticket intake, agent response workflows, and SLA enforcement. This project demonstrates hands-on experience with real-world help desk administration in a cloud-hosted environment.
