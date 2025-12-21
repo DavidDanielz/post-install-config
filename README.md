@@ -127,7 +127,7 @@ Submitted a test ticket from the end-user support portal.
 
 ### Ticket Intake (Agent View)
 <p align="center">
-  <img src="23.5 Open ticket .png" width="80%" alt="Open Ticket"/>
+  <img src="5. Ticket 161725 2.png" width="80%" alt="Open Ticket"/>
 </p>
 <p align="center">
 Verified ticket receipt, ticket details, and assigned ownership as a support agent.
@@ -137,7 +137,7 @@ Verified ticket receipt, ticket details, and assigned ownership as a support age
 
 ### Ticket Resolution
 <p align="center">
-  <img src="25. Ticket resolved .png" width="80%" alt="Ticket Resolved"/>
+  <img src="11. Resolved Ticket.png" width="80%" alt="Ticket Resolved"/>
 </p>
 <p align="center">
 Responded to and resolved the ticket, completing the support workflow.
